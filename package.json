@@ -1,0 +1,24 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongodb-session": "^2.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.16.1",
+    "mongodb": "^3.2.6",
+    "mongoose": "^5.5.12",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0"
+  }
+}
